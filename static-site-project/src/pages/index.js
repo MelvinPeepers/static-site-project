@@ -2,20 +2,18 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+
+    <h1>Hello!</h1>
+    <p>Welcome to my Static Site.</p>
+    <p>I’m currently a support engineer at Callcentric, a Voice Over Internet Protocol provider. I provide assistance in a wide variety of areas from on-boarding new customers, billing and product questions, to more technical issues such as debugging Session Initiation Protocol logs, configuring SIP user agents, and helping customers with troubleshooting issues with their devices and networks. Recently I’ve been working with a project manager and providing feedback on new support tools that allow all the support engineers respond faster to customers.</p>
+										
+    <p>To improve my technical knowledge, I enrolled in Lambda School, learned Full-Stack Web Development and graduated last June. While there I learned Git, HTML, JavaScript and Python. I was able to apply the concepts I learned to develop websites and web apps and deploy them using Netlify.</p>
+
+    <Link to="/page-2/">Go to page my answers.</Link> <br />
+
   </Layout>
 )
 
