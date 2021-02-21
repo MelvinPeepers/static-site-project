@@ -73,7 +73,7 @@ const SecondPage = () => (
 
         <p>It can take up to 72 hours (although usually no more than 48 hours) for all DNS registries to be updated with new information. For new users, they may think that a change should be near-instantaneous, which could lead to frustration.</p>
 
-        <p>Additionally, ISP can cache DNS records to speed up browsing which can inadvertently slow down DNS from updating for users of the ISP. This could prevent some users from access the site until they either clear their cache or the cache gets updated with the new records.</p>
+        <p>Additionally, ISP DNS servers can cache DNS records to speed up browsing which can inadvertently slow down DNS from updating for users of the ISP. This could prevent some users from access the site until they either clear their cache or the cache gets updated with the new records.</p>
       </li>
 
       <li>
@@ -81,7 +81,7 @@ const SecondPage = () => (
 
         <p>Hey @username,</p>
 
-        <p>I would look over this support guide (https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213), which explains some troubleshooting tips that may help you with your build issue.</p> 
+        <p>I would look over this support guide <a href='https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213' rel='noreferrer' target='_blank'>https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213</a>, which explains some troubleshooting tips that may help you with your build issue.</p> 
 
         <p>We also recommend searching the forums with any build errors you have encountered as the question may have been asked by someone else.</p>
 
