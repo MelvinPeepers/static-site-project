@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import "fontsource-open-sans" // Defaults to weight 400 with all styles included.
 
 import Header from "./header"
 import "./layout.css"
