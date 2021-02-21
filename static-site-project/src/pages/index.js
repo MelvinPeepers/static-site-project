@@ -12,7 +12,7 @@ const IndexPage = () => (
 										
     <p>To improve my technical knowledge, I enrolled in Lambda School, learned Full-Stack Web Development and graduated last June. While there I learned Git, HTML, JavaScript and Python. I was able to apply the concepts I learned to develop websites and web apps and deploy them using Netlify.</p>
 
-    <Link to="/page-2/">Go to page my answers.</Link> <br />
+    <Link to="/page-2/">Go here for my answers.</Link> <br />
 
   </Layout>
 )
