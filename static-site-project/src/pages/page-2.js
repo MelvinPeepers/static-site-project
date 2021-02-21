@@ -73,7 +73,7 @@ const SecondPage = () => (
 
         <p>It can take up to 72 hours (although usually no more than 48 hours) for all DNS registries to be updated with new information. For new users, they may think that a change should be near-instantaneous, which could lead to frustration.</p>
 
-        <p>Additionally, ISP can cache DNS records to speed up browsing which can inadvertently slow down DNS from updating for users of the ISP. This could prevent some users from access the site until they either clear their cache or the cache gets updated with the new records.</p>
+        <p>Additionally, ISP DNS servers can cache DNS records to speed up browsing which can inadvertently slow down DNS from updating for users of the ISP. This could prevent some users from access the site until they either clear their cache or the cache gets updated with the new records.</p>
       </li>
 
       <li>
