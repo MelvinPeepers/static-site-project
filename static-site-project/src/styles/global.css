@@ -7,3 +7,23 @@ body {
 p {
   color: #0e1e25;
 }
+
+.favorite-list {
+  list-style: disc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-text {
+  font-weight: bold;
+}
+
+li {
+  padding: 0 0 40px 0;
+}
+
+.favorite-list li {
+  padding: 0;
+}
