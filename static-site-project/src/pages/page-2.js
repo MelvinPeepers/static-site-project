@@ -81,7 +81,7 @@ const SecondPage = () => (
 
         <p>Hey @username,</p>
 
-        <p>I would look over this support guide (https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213), which explains some troubleshooting tips that may help you with your build issue.</p> 
+        <p>I would look over this support guide <a href='https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213' rel='noreferrer' target='_blank'>https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213</a>, which explains some troubleshooting tips that may help you with your build issue.</p> 
 
         <p>We also recommend searching the forums with any build errors you have encountered as the question may have been asked by someone else.</p>
 
