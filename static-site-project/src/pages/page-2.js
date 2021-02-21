@@ -11,7 +11,7 @@ const SecondPage = () => (
       <li>
         <h4>Talk about how you made your site and why you chose the tools you did. Briefly explain one challenge you experienced in setting up this site and how you solved it.</h4>
 
-        <p>From the list provided, I decided to go with Gatsby to build my static site. I saw that it’s based on React, which I’m most familiar with and I’ve heard of it before (although never used it) so I know it’s popular with developers. Searching Netlify, I found a step-by-step guide for setting up and deploying Gatsby <a href='https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify' rel='noreferrer' target='_blank'>here</a>. The guide was updated on March 24th, 2020, so I believe it’s fairly current.</p>
+        <p>From the list provided, I decided to go with Gatsby to build my static site. Gatsby is based on React, which I’m most familiar with, and I’ve heard of Gatsby before (although never used it), so I know it’s popular with developers. Searching Netlify, I found a step-by-step guide for setting up and deploying Gatsby <a href='https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify' rel='noreferrer' target='_blank'>here</a>. The Netlify Gatsby guide was updated on March 24th, 2020, so I know it is current.</p>
 
         <p>I created a repository on <a href='https://github.com/MelvinPeepers/static-site-project/tree/main/static-site-project'rel='noreferrer' target='_blank'>Github</a> for my project and cloned it locally. I also set up a branch that I worked from before pushing to Main.</p>
 
@@ -25,9 +25,9 @@ const SecondPage = () => (
       <li>
         <h4>What did you think of our service during the time you used it? Provide either some constructive criticism or some points that impressed you. Be honest! “It sucked” isn’t a wrong answer unless you don’t elaborate and provide some constructive criticism ;)</h4>
 
-        <p>I love how Netlify has great documentation for seemly all the services and features that are provided. The documentation I've come across is easy to follow, with step-by-step instructions that accurately show what needs to be done to get up and running. I was surprised how pain-free and quick it was to get the Gatsby site deployed. In the past, I've run into issues where I didn't configure the Deploy settings properly and would get a 'Page Not Found'.</p>
+        <p>I love how Netlify has great documentation for seemingly all the services and features that are provided. The documentation I've come across is easy to follow, with step-by-step instructions that accurately show what needs to be done to get up and running. I was surprised how pain-free and quick it was to get the Gatsby site deployed. In the past, I've run into issues where I didn't configure the Deploy settings properly and would get a 'Page Not Found'. By researching on the Netlify Community forums I was able to find solutions to those deploy issues. The community forums are another great service that Netlify offers.</p>
 
-        <p>By researching on the Netlify Community forums I was able to find solutions to those deploy issues. Which is another great service that Netlify offers.</p>
+        <p>While working on the redirects question, I came across this <a href='https://play.netlify.com/redirects'>Netlify redirects tool</a> that tested the redirect I created to confirm that it would work. The attention to detail shows that Netlify cares about giving the best user experience.</p>
       </li>
 
       <li>
@@ -57,7 +57,7 @@ const SecondPage = () => (
       <li>
         <h4>Provide a link to documentation for a technical/developer-focused product, which you think are well done, and briefly explain why you think they are well done.</h4>
 
-        <p>I think <a href='https://reactjs.org/docs/getting-started.html' rel='noreferrer' target='_blank'>React docs</a> are very well done. What I like about them is that the docs have a live JSX editor that allows you to perform small code edits and see how the code works without any setup on your end. This allows you to quickly try some examples. The tutorials in the docs also clearly explain what you're building and the sets and code to build it. The code examples are clutter-free and easy to read.</p>
+        <p>I think <a href='https://reactjs.org/docs/getting-started.html' rel='noreferrer' target='_blank'>React documentation</a> is very well done. What I like about their documentation is the live JSX editor that allows you to perform small code edits and see how the code works without any setup on your end. Being able to work with the code on the page allows you to try the provided examples quickly. The tutorials in the documentation also clearly explain what you're building and the steps required to build it. The code examples are clutter-free and easy to read.</p>
       </li>
 
       <li>
@@ -68,13 +68,17 @@ const SecondPage = () => (
 
       <li>
         <h4>Explain, in a couple of paragraphs, what you think 2 major challenges around DNS configuration are for less-technical internet end-users.</h4>
-        <p>I think two major challenges around DNS configuration for less-technical internet end-users is the amount of time it takes for DNS to be updated and that DNS records can be stored in cache which can also slow down DNS being updated.</p>
 
-        <p>It can take up to 72 hours (although usually no more than 48 hours) for all DNS registries to be updated with new information. Additionally, ISP can cache DNS records to speed up browsing which can inadvertently slow down DNS from updating for users of the ISP.</p>
+        <p>I think two major challenges around DNS configuration for less-technical internet end-users are the amount of time it takes for DNS to be updated and that DNS records can be stored in cache which can also slow down DNS being updated.</p>
+
+        <p>It can take up to 72 hours (although usually no more than 48 hours) for all DNS registries to be updated with new information. For new users, they may think that a change should be near-instantaneous, which could lead to frustration.</p>
+
+        <p>Additionally, ISP can cache DNS records to speed up browsing which can inadvertently slow down DNS from updating for users of the ISP. This could prevent some users from access the site until they either clear their cache or the cache gets updated with the new records.</p>
       </li>
 
       <li>
         <h4>A customer writes in saying their “site won’t build”. Compose:</h4>
+
         <p>Hey @username,</p>
 
         <p>I would look over this support guide (https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213), which explains some troubleshooting tips that may help you with your build issue.</p> 
@@ -86,13 +90,18 @@ const SecondPage = () => (
 
       <li>
         <h4>Can you set up a redirect from “/netlify/anything” to <a href='https://www.google.com/search?q=anything'>https://www.google.com/search?q=anything</a>?</h4>
-        <a href='/netlify/anything'>My redirect</a>
-        <p>Set up using a netlify.toml file that redirects to the url. </p> 
+
+        <a href='/netlify/anything' rel='noreferrer' target='_blank'>My redirect</a>
+
+        <p className='playground-txt'>Using <a href='https://play.netlify.com/redirects'>Netlify's playground</a>, I was able to create the netlify.toml file and get it tested before adding it to my site.</p> 
       </li>
 
       <li>
         <h4>Could you give us a suggestion to improve this test or the job posting?</h4>
-        <p>Answer</p>
+
+        <p>The only thing I can think of to improve the <a href='https://boards.greenhouse.io/netlify/jobs/5059932002' rel='noreferrer' target='_blank'>job listing</a> is to display the time zone requirements in multiple zones. Adding more time zones to the listing could help clear up the hours that are required.</p> 
+
+        <p>I like how the job listing spells out the expectations of the work with examples and a timeline. There is also specific information on the support values and the technologies used.</p>
       </li>
     </ol>
     
