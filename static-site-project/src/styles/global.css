@@ -4,6 +4,10 @@ body {
   font-family: "Open Sans";
 }
 
+h2 {
+  margin: 0 auto;
+}
+
 p {
   color: #0e1e25;
 }
