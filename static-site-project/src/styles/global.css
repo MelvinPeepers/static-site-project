@@ -17,6 +17,8 @@ p {
 }
 
 a {
+  color: #00ad9f;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -30,4 +32,8 @@ li {
 
 .favorite-list li {
   padding: 0;
+}
+
+.playground-txt {
+  padding-top: 20px;
 }
