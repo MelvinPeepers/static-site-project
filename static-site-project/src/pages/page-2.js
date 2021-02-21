@@ -19,7 +19,7 @@ const SecondPage = () => (
 
         <p>Since I had started with setting up my Github repository first, I skipped the section on ‘Creating your Git Repo’ and went to ‘Connecting to Netlify’. I didn’t anticipate that my directory would be slightly different and the first deployment failed. Reviewing the deploy logs, I saw that the gatsby build command couldn’t be found, which lead me to believe that since I nested my Gatsby files within another folder (static-site-project/static-site-project) I needed to add static-site-project to the ‘Base directory’ for my Deploy settings. After performing the change, the second deploy was a success.</p>
 
-        <p>Within the Netlify settings, I changed my site name to <a href='https://mels-static-site.netlify.app/' rel='noreferrer' target='_blank'>mels-static-site</a>. I also added a custom favicon, after going over the <a href='https://www.gatsbyjs.com/tutorial/' rel='noreferrer' target='_blank'>Gatsby documentation</a> to learn the basics.</p>
+        <p>Within the Netlify settings, I created a subdomain for my site name <a href='https://static.melvinpeepers.com/' rel='noreferrer' target='_blank'>https://static.melvinpeepers.com/</a>, which was surprisingly easy. I also added a custom favicon, after going over the <a href='https://www.gatsbyjs.com/tutorial/' rel='noreferrer' target='_blank'>Gatsby documentation</a> to learn the basics.</p>
       </li>
 
       <li>
@@ -57,13 +57,13 @@ const SecondPage = () => (
       <li>
         <h4>Provide a link to documentation for a technical/developer-focused product, which you think are well done, and briefly explain why you think they are well done.</h4>
 
-        <p>I think <a href='https://reactjs.org/docs/getting-started.html' rel='noreferrer' target='_blank'>React documentation</a> is very well done. What I like about their documentation is the live JSX editor that allows you to perform small code edits and see how the code works without any setup on your end. Being able to work with the code on the page allows you to try the provided examples quickly. The tutorials in the documentation also clearly explain what you're building and the steps required to build it. The code examples are clutter-free and easy to read.</p>
+        <p>I think <a href='https://reactjs.org/docs/getting-started.html' rel='noreferrer' target='_blank'>React documentation</a> is very well done. What I like about the documentation is the live JSX editor that allows you to perform small code edits and see how the code works without any setup on your end. Being able to work with the code on the page allows you to try the provided examples quickly. The tutorials in the documentation also clearly explain what you will be creating and the steps required to build it. The code examples are also clutter-free and easy to read.</p>
       </li>
 
       <li>
         <h4>Why do you think SSL/HTTPS is important?</h4>
 
-        <p>I think SSL (Secure Sockets Layer) and HTTPS are important as they protect passwords, personal and financial information on the internet. Without a secure internet, there would be a lot less confidence in doing just about anything online.</p>
+        <p>I think SSL (Secure Sockets Layer) and HTTPS are paramount as they protect passwords, personal and financial information on the internet. Without a secure internet, there would be a lot less confidence in doing just about anything online.</p>
       </li>
 
       <li>
