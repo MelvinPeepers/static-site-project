@@ -19,7 +19,7 @@ const SecondPage = () => (
 
         <p>Since I had started with setting up my Github repository first, I skipped the section on ‘Creating your Git Repo’ and went to ‘Connecting to Netlify’. I didn’t anticipate that my directory would be slightly different and the first deployment failed. Reviewing the deploy logs, I saw that the gatsby build command couldn’t be found, which lead me to believe that since I nested my Gatsby files within another folder (static-site-project/static-site-project) I needed to add static-site-project to the ‘Base directory’ for my Deploy settings. After performing the change, the second deploy was a success.</p>
 
-        <p>Within the Netlify settings, I created a subdomain for my site name <a href='https://static.melvinpeepers.com/' rel='noreferrer' target='_blank'>https://static.melvinpeepers.com/</a>. I also added a custom favicon, after going over the <a href='https://www.gatsbyjs.com/tutorial/' rel='noreferrer' target='_blank'>Gatsby documentation</a> to learn the basics.</p>
+        <p>Within the Netlify settings, I created a subdomain for my site name <a href='https://static.melvinpeepers.com/' rel='noreferrer' target='_blank'>https://static.melvinpeepers.com/</a>, which was surprisingly easy. I also added a custom favicon, after going over the <a href='https://www.gatsbyjs.com/tutorial/' rel='noreferrer' target='_blank'>Gatsby documentation</a> to learn the basics.</p>
       </li>
 
       <li>
