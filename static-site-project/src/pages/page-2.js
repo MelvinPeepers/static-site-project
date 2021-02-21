@@ -85,7 +85,7 @@ const SecondPage = () => (
       </li>
 
       <li>
-        <h4>Can you set up a redirect from “/netlify/anything” to <a href='https://www.google.com/search?q=anything'>https://www.google.com/search?q=anything</a></h4>
+        <h4>Can you set up a redirect from “/netlify/anything” to <a href='https://www.google.com/search?q=anything'>https://www.google.com/search?q=anything</a>?</h4>
         <a href='/netlify/anything'>My redirect</a>
       </li>
 
