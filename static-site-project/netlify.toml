@@ -1,4 +1,6 @@
 [[redirects]]
-  from = "/netlify/anything"
-  to = "https://www.google.com/search?q=anything"
+from = "/netlify/anything"
+to = "https://www.google.com/search?q=anything"
+status = 301
+force = false
   
