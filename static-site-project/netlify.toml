@@ -1,8 +1,7 @@
 [[redirects]]
-  from = "/sdfd"
-  to = "https://brave-brattain-2a4c10.netlify.app"
+  from = "/*"
+  to = "melvinpeepers.netlify.app/:splat"
   status = 200
-  force = true
 
 
 #[[redirects]]
