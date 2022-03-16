@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/blog"
+  from = "/sdfd"
   to = "https://brave-brattain-2a4c10.netlify.app"
   status = 200
   force = true
