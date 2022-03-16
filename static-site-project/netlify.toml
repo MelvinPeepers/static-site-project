@@ -1,3 +1,11 @@
+[[redirects]]
+  from = "/blog"
+  to = "https://brave-brattain-2a4c10.netlify.app"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+
 #[[redirects]]
 #from = "/netlify/anything"
 #to = "https://www.google.com/search?q=anything"
@@ -16,10 +24,5 @@
 #to = "brave-brattain-2a4c10.netlify.app"
 #status = 200
 
-[[redirects]]
-  from = "/blog"
-  to = "https://brave-brattain-2a4c10.netlify.app"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+
   
