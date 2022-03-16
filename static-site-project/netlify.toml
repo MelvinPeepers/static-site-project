@@ -3,7 +3,6 @@
   to = "https://brave-brattain-2a4c10.netlify.app"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
 
 
 #[[redirects]]
