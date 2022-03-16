@@ -1,13 +1,18 @@
-[[redirects]]
-from = "/netlify/anything"
-to = "https://www.google.com/search?q=anything"
-status = 301
-force = false
+#[[redirects]]
+#from = "/netlify/anything"
+#to = "https://www.google.com/search?q=anything"
+#status = 301
+#force = false
+
+#[[redirects]]
+#from = "/search"
+#to = "https://google.com/search?q=stuff"
+#status = 200
+#proxy = true
+#pattern = "^/proxy(?:|/|(.*)/?)$"
 
 [[redirects]]
-from = "/search"
-to = "https://google.com/search?q=stuff"
+from = "/blog"
+to = "epic-goldstine-54d029.netlify.app"
 status = 200
-proxy = true
-pattern = "^/proxy(?:|/|(.*)/?)$"
   
